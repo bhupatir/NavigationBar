@@ -3,7 +3,7 @@ import {
    AppRegistry,
    View
 } from 'react-native'
-import Router from './src/components/Router'
+import Router from './components/Router'
 
 class reactTutorialApp extends Component {
    render() {
