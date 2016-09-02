@@ -5,7 +5,7 @@ import {
 } from 'react-native'
 import Router from './components/Router'
 
-class reactTutorialApp extends Component {
+class Navigation extends Component {
    render() {
       return (
          <Router />
@@ -13,4 +13,4 @@ class reactTutorialApp extends Component {
    }
 }
 
-AppRegistry.registerComponent('reactTutorialApp', () => reactTutorialApp)
+AppRegistry.registerComponent('Navigation', () => Navigation)
